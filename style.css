@@ -1,0 +1,121 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C82F2F;
+}
+
+li {
+  float: left;
+}
+
+li a {
+text-decoration: none;
+color: white;
+font-size: 22px;
+display: block;
+padding: 16px;
+padding-left: 24px;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color:#FFD700;
+   
+   
+}
+#AS{
+    padding-left: 66px;
+}
+
+#btn{
+    background-color: #C82F2F;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+    padding: 15px;
+    font-family:sans-serif;
+}
+#btn1{
+    background-color: #C82F2F;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+    padding: 15px;
+    margin-left: 230px;
+    font-family:sans-serif;
+}
+#rst{
+    background-color: white;
+    color: #C82F2F;
+     border: 2px solid #C82F2F;
+  padding: 12px;
+  border-radius: 8px;
+    font-size: 24px;
+    width: 10%;
+    padding: 15px;
+    font-family:sans-serif;
+}
+#cnfrm{
+    background-color: #C82F2F;
+    color: white;
+    font-size: 24px;
+    width: 10%;
+    padding: 5px;
+    font-family:sans-serif;
+}
+#srch{
+    background-color: #C82F2F;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.Main{
+    width: 100%;
+    height: auto;
+}
+input[type=text]{
+    padding: 10px;
+}
+input[type=number]{
+    padding: 10px;
+}
+#form1{
+    margin-top:-460px;
+    width: 25%;
+    float: right;
+    font-size: 24px;
+    
+}
+#select1{
+    font-size: 14px;
+    padding: 10px;
+}
+#select2{
+    font-size: 14px;
+    padding: 15px;
+    width: 50%;
+}
+#select3{
+    font-size: 14px;
+    padding: 15px;
+    width: 8%;
+}
+.active {
+      text-decoration: underline;
+    text-decoration-color:#FFD700;
+}
+#chat{
+ 
+    margin-left: 715px;
+    margin-top: -150px;
+}
+#form2{
+    font-size: 24px;
+    margin-left: 100px;
+    padding: 20px;
+}
+#link1{
+    margin-left: 800px;
+    margin-top: -1000px;
+}

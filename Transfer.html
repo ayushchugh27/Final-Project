@@ -1,0 +1,66 @@
+<html>
+    <title>Transfer Funds</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<header>
+    <img src="Header@3x.png" alt="header" width="100%">
+    </header>
+    <body>
+<ul>
+  <li><a href="index.html" id="AS">Accounts Summary</a></li>
+  <li><a href="#">Profile & Accounts Settings</a></li>
+  <li><a href="Transaction.html" >Transactions</a></li>
+  <li><a href="Investment.html">Investments</a></li>
+  <li><a href="Transfer.html" class="active">Transfer Funds</a></li>
+      <li><a href="Chat.html" id="active" style="margin-left:200px;"><i class="fa fa-fw fa-comments" ></i> </a></li>
+</ul>
+   <img src="Transfer.png" alt="transfer" width="65%"  style="padding-left: 26px;">
+        <form id="form2">
+        <label> From</label><br><br>
+     <select id="select2">
+    <option value="1">Chequing 16278-321434</option>
+    <option value="2">Chequing 16278-321313</option>
+    <option value="3">Savings 16278-543245</option>
+    <option value="4">MasterCard 3463********3434</option>
+  </select><br><br>
+            <label>To</label><br><br>
+                <select id="select2">
+    <option value="select">Select....</option>
+    <option value="1">Savings 16278-543245</option>
+    <option value="2 ">Chequing 16278-321434</option>
+    <option value="3">Chequing 16278-321313</option>
+    <option value="4">MasterCard 3463********3434</option>
+  </select><br> <br>
+            <label>Add new Payee</label><br><br>
+            <input type="radio" id="B1" value="Bill Payee">
+              <label for="B1">Bill Payee</label><br>
+            <input type="radio" id="B2" value="Interact e-Transfer Recipent">
+              <label for="B1">Interact e-Transfer Recipent</label><br>
+            <input type="radio" id="B3" value="BOC Customer Account">
+              <label for="B1">BOC Customer Account</label><br><br>  
+            <label>Amount</label><br>
+            <input type="number"style="width: 41%; padding: 15px" placeholder="$0.00"> 
+            <select id="select3">
+            <option>CAD</option>
+            <option>USD</option>
+            <option>INR</option>
+            </select><br><br>    
+            <label>How Often</label><br>
+            <select id="select2">
+            <option>Once</option>
+            <option>2</option>
+            <option>3</option>
+            </select><br><br>
+            <label>Date</label><br>
+            <input type="date" style="width: 50%; padding: 15px"><br><br>
+            <input type="reset" value="Clear" id="rst">
+            <input type="button" value="Confirm" id="btn1">
+           
+        
+        </form>
+            <img src="Links.png" alt="links" id="link1" width="40%">
+    </body>
+</html>
